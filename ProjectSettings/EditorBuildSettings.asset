@@ -4,4 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Ciclo.unity
+    guid: e4bd2bed708f6616dbfb5d9c407db044
+  m_configObjects: {}
