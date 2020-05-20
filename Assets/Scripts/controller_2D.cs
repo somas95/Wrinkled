@@ -12,6 +12,7 @@ public class controller_2D : MonoBehaviour
 	[SerializeField] private Transform CeilingCheck;							// A position marking where to check for ceilings
 	[SerializeField] private Transform SpawnPoint;								// From where do we spawn the player
 	[SerializeField] private Collider2D CrouchDisableCollider;					// A collider that will be disabled when crouching
+	[SerializeField] private GameObject Corpse;									// Corpse
 
 	const float groundedRadius = .2f; // Radius of the overlap circle to determine if grounded
 	private bool isGrounded;            // Whether or not the player is grounded.
@@ -47,6 +48,11 @@ public class controller_2D : MonoBehaviour
 	private void SpawnCharacter()
 	{
 		Rigidbody2D.transform.position = SpawnPoint.transform.position;
+	}
+
+	private void SpawnCorpse()
+	{
+		Instantiate(Corpse, Rigidbody2D.transform.position, Quaternion.identity);
 	}
 
 	private void FixedUpdate()
@@ -154,9 +160,11 @@ public class controller_2D : MonoBehaviour
 
 	private void OnCollisionEnter2D(Collision2D other)
 	{
-		Debug.Log("hey");
+		// On death
 		if (other.gameObject.tag == "Respawn")
 		{
+			// first we spawn a corpse
+			SpawnCorpse();
 			SpawnCharacter();
 		}
 	}
