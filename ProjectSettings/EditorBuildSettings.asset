@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Ciclo.unity
     guid: e4bd2bed708f6616dbfb5d9c407db044
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: f6f196fff76feb637b7c02e9369aeb5d
+  - enabled: 1
+    path: Assets/Scenes/Vestigio.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}
