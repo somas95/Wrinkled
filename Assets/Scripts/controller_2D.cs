@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 using UnityEngine.Events;
 
 public class controller_2D : MonoBehaviour
@@ -13,6 +14,10 @@ public class controller_2D : MonoBehaviour
 	[SerializeField] private Transform SpawnPoint;								// From where do we spawn the player
 	[SerializeField] private Collider2D CrouchDisableCollider;					// A collider that will be disabled when crouching
 	[SerializeField] private GameObject Corpse;									// Corpse
+
+	private bool isInputEnabled = true;
+
+	public Animator animator;
 
 	const float groundedRadius = .2f; // Radius of the overlap circle to determine if grounded
 	private bool isGrounded;            // Whether or not the player is grounded.
@@ -88,7 +93,7 @@ public class controller_2D : MonoBehaviour
 		}
 
 		//only control the player if grounded or airControl is turned on
-		if (isGrounded || AirControl)
+		if ((isGrounded || AirControl) && isInputEnabled)
 		{
 
 			// If crouching
@@ -163,9 +168,21 @@ public class controller_2D : MonoBehaviour
 		// On death
 		if (other.gameObject.tag == "Respawn")
 		{
-			// first we spawn a corpse
-			SpawnCorpse();
-			SpawnCharacter();
+			StartCoroutine(die());
+			StopCoroutine(die());
+
 		}
+	}
+
+	IEnumerator die() {
+		isInputEnabled = false;
+		animator.SetBool("isDeath", true);
+		yield return new WaitForSeconds (1.75f);
+		// first we spawn a corpse
+		SpawnCorpse();
+		animator.SetBool("isDeath", false);
+		SpawnCharacter();
+		isInputEnabled = true;
+
 	}
 }

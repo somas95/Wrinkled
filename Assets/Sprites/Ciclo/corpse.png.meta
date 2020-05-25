@@ -1,0 +1,728 @@
+fileFormatVersion: 2
+guid: e25da4bb22a58be4d92d87bdcdd7d6d1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7165940466613131458
+    second: corpse_0
+  - first:
+      213: -637948739169596578
+    second: corpse_1
+  - first:
+      213: 7776826754792875267
+    second: corpse_2
+  - first:
+      213: 6631443929276487865
+    second: corpse_3
+  - first:
+      213: -2839317106449319184
+    second: corpse_4
+  - first:
+      213: -4479196351565194350
+    second: corpse_5
+  - first:
+      213: -6858515904283050241
+    second: corpse_6
+  - first:
+      213: 2437347024075754386
+    second: corpse_7
+  - first:
+      213: -1147275674905566183
+    second: corpse_8
+  - first:
+      213: -1711479617676195911
+    second: corpse_9
+  - first:
+      213: -7566310354535201293
+    second: corpse_10
+  - first:
+      213: 9072343885175073886
+    second: corpse_11
+  - first:
+      213: -6463906016540612525
+    second: corpse_12
+  - first:
+      213: 7927627801192647254
+    second: corpse_13
+  - first:
+      213: 3346283270756876908
+    second: corpse_14
+  - first:
+      213: -3831022118922090555
+    second: corpse_15
+  - first:
+      213: 491332317716599033
+    second: corpse_16
+  - first:
+      213: 5826993057994034995
+    second: corpse_17
+  - first:
+      213: 6253817947884383051
+    second: corpse_18
+  - first:
+      213: 4669154881056094128
+    second: corpse_19
+  - first:
+      213: 7528945103134413235
+    second: corpse_20
+  - first:
+      213: 3360563659949662057
+    second: corpse_21
+  - first:
+      213: -6562338501356140719
+    second: corpse_22
+  - first:
+      213: -9192804893767328068
+    second: corpse_23
+  - first:
+      213: 7425596779233874914
+    second: corpse_0
+  - first:
+      213: 2734747682921450740
+    second: corpse_1
+  - first:
+      213: 849990950563162721
+    second: corpse_2
+  - first:
+      213: 2711841589958177330
+    second: corpse_3
+  - first:
+      213: -223081304212275443
+    second: corpse_4
+  - first:
+      213: -1885577931804051116
+    second: corpse_5
+  - first:
+      213: 8179907008763307508
+    second: corpse_6
+  - first:
+      213: 3299482845208724819
+    second: corpse_7
+  - first:
+      213: 4341887365689671814
+    second: corpse_8
+  - first:
+      213: -2119959181612447246
+    second: corpse_9
+  - first:
+      213: 2395681840669500474
+    second: corpse_10
+  - first:
+      213: -598136011451105255
+    second: corpse_11
+  - first:
+      213: 7417557733699935224
+    second: corpse_12
+  - first:
+      213: -4567559588380937596
+    second: corpse_13
+  - first:
+      213: 7739204911282597411
+    second: corpse_14
+  - first:
+      213: 1443531147851499879
+    second: corpse_15
+  - first:
+      213: 5535366701475665097
+    second: corpse_16
+  - first:
+      213: 3895577725015217650
+    second: corpse_17
+  - first:
+      213: 5650047459223105397
+    second: corpse_18
+  - first:
+      213: -7855698281481154616
+    second: corpse_19
+  - first:
+      213: -5205348146508536354
+    second: corpse_20
+  - first:
+      213: 2694506230489801263
+    second: corpse_21
+  - first:
+      213: -7308918442353447496
+    second: corpse_22
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: corpse_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4320
+        width: 888
+        height: 1080
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3158f9de40d0760800000000000000
+      internalID: 7425596779233874914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse_1
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 4320
+        width: 888
+        height: 1080
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc0bde3786c3f520800000000000000
+      internalID: 2734747682921450740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse_2
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 4320
+        width: 888
+        height: 1080
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16a2d9e1446cbcb00800000000000000
+      internalID: 849990950563162721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse_3
+      rect:
+        serializedVersion: 2
+        x: 2664
+        y: 4320
+        width: 888
+        height: 1080
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2327690ee8562a520800000000000000
+      internalID: 2711841589958177330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse_4
+      rect:
+        serializedVersion: 2
+        x: 3552
+        y: 4320
+        width: 888
+        height: 1080
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f756a5cb477ecf0800000000000000
+      internalID: -223081304212275443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3240
+        width: 888
+        height: 1080
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459f08a7cd415d5e0800000000000000
+      internalID: -1885577931804051116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse_6
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 3240
+        width: 888
+        height: 1080
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f5a011e51ed48170800000000000000
+      internalID: 8179907008763307508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse_7
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 3240
+        width: 888
+        height: 1080
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35549239a2e1acd20800000000000000
+      internalID: 3299482845208724819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse_8
+      rect:
+        serializedVersion: 2
+        x: 2664
+        y: 3240
+        width: 888
+        height: 1080
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68080b60e8b714c30800000000000000
+      internalID: 4341887365689671814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse_9
+      rect:
+        serializedVersion: 2
+        x: 3552
+        y: 3240
+        width: 888
+        height: 1080
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f989a93b546492e0800000000000000
+      internalID: -2119959181612447246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2160
+        width: 888
+        height: 1080
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a34a5f3f0fb2f3120800000000000000
+      internalID: 2395681840669500474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse_11
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 2160
+        width: 888
+        height: 1080
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9108616777ef2b7f0800000000000000
+      internalID: -598136011451105255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse_12
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 2160
+        width: 888
+        height: 1080
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fbd22a757570f660800000000000000
+      internalID: 7417557733699935224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse_13
+      rect:
+        serializedVersion: 2
+        x: 2664
+        y: 2160
+        width: 888
+        height: 1080
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 482ff1c11c4cc90c0800000000000000
+      internalID: -4567559588380937596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse_14
+      rect:
+        serializedVersion: 2
+        x: 3552
+        y: 2160
+        width: 888
+        height: 1080
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e25fcdcdd276b60800000000000000
+      internalID: 7739204911282597411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1080
+        width: 888
+        height: 1080
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76986e94ee3780410800000000000000
+      internalID: 1443531147851499879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse_16
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 1080
+        width: 888
+        height: 1080
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c49bf6ffa291dc40800000000000000
+      internalID: 5535366701475665097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse_17
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 1080
+        width: 888
+        height: 1080
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f5d47e1d4fdf0630800000000000000
+      internalID: 3895577725015217650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse_18
+      rect:
+        serializedVersion: 2
+        x: 2664
+        y: 1080
+        width: 888
+        height: 1080
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f671b9a30096e40800000000000000
+      internalID: 5650047459223105397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse_19
+      rect:
+        serializedVersion: 2
+        x: 3552
+        y: 1080
+        width: 888
+        height: 1080
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf4ba5c804faf290800000000000000
+      internalID: -7855698281481154616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 888
+        height: 1080
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed5ee1b9073e2c7b0800000000000000
+      internalID: -5205348146508536354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse_21
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 0
+        width: 888
+        height: 1080
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f22eb69f32fc46520800000000000000
+      internalID: 2694506230489801263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: corpse_22
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 0
+        width: 888
+        height: 1080
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bda837a661819a90800000000000000
+      internalID: -7308918442353447496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 04512523e99e346f6a729c881a824386
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
