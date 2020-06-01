@@ -19,7 +19,7 @@ public class movement_2D : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        animator.SetFloat("velocity", horizontal_move);
+        animator.SetFloat("velocity", Mathf.Abs(horizontal_move));
 
         horizontal_move = Input.GetAxisRaw("Horizontal") * move_speed;
         if (Input.GetKey(KeyCode.LeftShift)){
