@@ -76,7 +76,6 @@ public class controller_2D : MonoBehaviour
 				isGrounded = true;
 				if (!wasGrounded)
 				{
-					Debug.Log("landed");
 					OnLandEvent.Invoke();
 				}
 			}
@@ -152,7 +151,7 @@ public class controller_2D : MonoBehaviour
 			}
 		}
 		// If the player should jump...
-		if (isGrounded && jump)
+		if (isGrounded && jump && isInputEnabled)
 		{
 			// Add a vertical force to the player.
 			isGrounded = false;
@@ -178,6 +177,7 @@ public class controller_2D : MonoBehaviour
 		// On death
 		if (other.gameObject.tag == "Respawn")
 		{
+			Debug.Log("die");
 			StartCoroutine(die());
 			StopCoroutine(die());
 
