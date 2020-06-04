@@ -19,8 +19,8 @@ public class controller_2D : MonoBehaviour
 
 	public Animator animator;
 
-	const float groundedRadius = .2f; // Radius of the overlap circle to determine if grounded
-	private bool isGrounded;            // Whether or not the player is grounded.
+	const float groundedRadius = .01f; // Radius of the overlap circle to determine if grounded
+	public bool isGrounded;            // Whether or not the player is grounded.
 	const float ceilingRadius = .2f; // Radius of the overlap circle to determine if the player can stand up
 	private Rigidbody2D Rigidbody2D;
 	private bool isFacingRight = true;  // For determining which way the player is currently facing.
@@ -62,6 +62,7 @@ public class controller_2D : MonoBehaviour
 
 	private void FixedUpdate()
 	{
+		animator.SetBool("isGrounded", isGrounded);
 		bool wasGrounded = isGrounded;
 		isGrounded = false;
 
@@ -74,15 +75,16 @@ public class controller_2D : MonoBehaviour
 			{
 				isGrounded = true;
 				if (!wasGrounded)
-				animator.SetBool("isJumpDown", false);
+				{
+					Debug.Log("landed");
 					OnLandEvent.Invoke();
+				}
 			}
 		}
 
 		if (animator.GetBool("isJumpUp") && Rigidbody2D.velocity.y < 0)
 		{
 			animator.SetBool("isJumpUp", false);
-			animator.SetBool("isJumpDown", true);
 		}
 	}
 
