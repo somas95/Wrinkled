@@ -74,8 +74,15 @@ public class controller_2D : MonoBehaviour
 			{
 				isGrounded = true;
 				if (!wasGrounded)
+				animator.SetBool("isJumpDown", false);
 					OnLandEvent.Invoke();
 			}
+		}
+
+		if (animator.GetBool("isJumpUp") && Rigidbody2D.velocity.y < 0)
+		{
+			animator.SetBool("isJumpUp", false);
+			animator.SetBool("isJumpDown", true);
 		}
 	}
 
@@ -147,6 +154,7 @@ public class controller_2D : MonoBehaviour
 		{
 			// Add a vertical force to the player.
 			isGrounded = false;
+			animator.SetBool("isJumpUp", true);
 			Rigidbody2D.AddForce(new Vector2(0f, JumpForce));
 		}
 	}
