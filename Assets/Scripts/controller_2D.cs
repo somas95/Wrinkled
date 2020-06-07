@@ -26,6 +26,8 @@ public class controller_2D : MonoBehaviour
 	private bool isFacingRight = true;  // For determining which way the player is currently facing.
 	private Vector3 velocity = Vector3.zero;
 
+	public AudioManager audioManager;
+
 	[Header("Events")]
 	[Space]
 
@@ -76,6 +78,7 @@ public class controller_2D : MonoBehaviour
 				isGrounded = true;
 				if (!wasGrounded)
 				{
+					audioManager.Play("golpe");
 					OnLandEvent.Invoke();
 				}
 			}
@@ -136,6 +139,7 @@ public class controller_2D : MonoBehaviour
 			Vector3 targetVelocity = new Vector2(move * 10f, Rigidbody2D.velocity.y);
 			// And then smoothing it out and applying it to the character
 			Rigidbody2D.velocity = Vector3.SmoothDamp(Rigidbody2D.velocity, targetVelocity, ref velocity, MovementSmoothing);
+			
 
 			// If the input is moving the player right and the player is facing left...
 			if (move > 0 && !isFacingRight)
@@ -157,6 +161,13 @@ public class controller_2D : MonoBehaviour
 			isGrounded = false;
 			animator.SetBool("isJumpUp", true);
 			Rigidbody2D.AddForce(new Vector2(0f, JumpForce));
+			audioManager.Play("saltar");
+		}
+
+		//If the player is walking...
+		if (isGrounded && move != 0)
+		{
+			audioManager.Play("pisada");
 		}
 	}
 
@@ -185,6 +196,7 @@ public class controller_2D : MonoBehaviour
 	}
 
 	IEnumerator die() {
+		audioManager.Play("muerte");
 		isInputEnabled = false;
 		animator.SetBool("isDeath", true);
 		yield return new WaitForSeconds (1.75f);
