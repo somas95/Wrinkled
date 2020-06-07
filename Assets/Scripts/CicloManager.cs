@@ -12,11 +12,4 @@ public class CicloManager : MonoBehaviour
         audioManager.Play("background");
     }
 
-
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
