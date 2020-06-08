@@ -26,6 +26,107 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 34.0186, y: 36.22732, z: 145.38524}
   m_Center: {x: -0.0000001506826, y: -1.5302509, z: 72.681015}
+--- !u!114 &7323174916808510787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4217028067938626058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43c3f1eb73fa4ed35af45f4da6e4f92e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ThisTransform: {fileID: 0}
+  Speed: 15
+  AnimCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: -16.099901
+      outSlope: -16.099901
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.034313723
+      value: 0.44755244
+      inSlope: 2.23106
+      outSlope: 2.23106
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.05989989
+      value: 0.9736557
+      inSlope: 8.681433
+      outSlope: 8.681433
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.17593513
+      value: 0.60244083
+      inSlope: 49.37688
+      outSlope: 49.37688
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.19094086
+      value: 2.132318
+      inSlope: 45.25857
+      outSlope: 45.25857
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.42530343
+      value: -0.54780054
+      inSlope: 7.535749
+      outSlope: 7.535749
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.489126
+      value: 1.1439619
+      inSlope: 9.179756
+      outSlope: 9.179756
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.78812474
+      value: -1.2922096
+      inSlope: 1.335455
+      outSlope: 1.335455
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 10.818675
+      outSlope: 10.818675
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 1
+    m_RotationOrder: 4
 --- !u!1001 &5306376951984435971
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -91,7 +192,7 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: c9d324cff82d6661e8957a47549e92a7,
         type: 3}
       propertyPath: m_Name
-      value: Morado
+      value: Morado Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9d324cff82d6661e8957a47549e92a7, type: 3}

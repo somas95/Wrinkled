@@ -25,12 +25,11 @@ public class Respawn : MonoBehaviour
         
     }
 
-    private void OnControllerColliderHit(ControllerColliderHit hit)
+    private void OnTriggerEnter(Collider hit)
 	{
 		// On death
 		if (hit.gameObject.tag == "Respawn")
 		{
-			Debug.Log("hey");
 			StartCoroutine(die());
 			StopCoroutine(die());
 

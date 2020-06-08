@@ -26,6 +26,80 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 34.018612, y: 36.22733, z: 145.38524}
   m_Center: {x: 0.0000002129039, y: -1.5302589, z: 72.681015}
+--- !u!114 &5622091533745325575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7402726610099525586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43c3f1eb73fa4ed35af45f4da6e4f92e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ThisTransform: {fileID: 0}
+  Speed: 15
+  AnimCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: -12.164157
+      outSlope: -12.164157
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.07026145
+      value: 0.1453287
+      inSlope: -2.3877347
+      outSlope: -2.3877347
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.19026071
+      value: 1.0319657
+      inSlope: -8.648492
+      outSlope: -8.648492
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.23266584
+      value: -0.014833331
+      inSlope: -11.096997
+      outSlope: -11.096997
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.7602063
+      value: 1.2996266
+      inSlope: 0.621079
+      outSlope: 0.621079
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: -1.249518
+      outSlope: -1.249518
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 1
+    m_RotationOrder: 4
 --- !u!1001 &1556602487205465819
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -91,7 +165,7 @@ PrefabInstance:
     - target: {fileID: -927199367670048503, guid: 72b80411cf399888dab8d900b78b3ead,
         type: 3}
       propertyPath: m_Name
-      value: Salmon
+      value: Salmon Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72b80411cf399888dab8d900b78b3ead, type: 3}
