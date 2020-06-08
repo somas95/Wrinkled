@@ -12,4 +12,8 @@ public class CicloManager : MonoBehaviour
         audioManager.Play("background");
     }
 
+    void Respawn(){
+        Debug.Log("respawn");
+    }
+
 }

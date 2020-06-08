@@ -7,21 +7,8 @@ public class BuildingCollapse : MonoBehaviour
 
     public Transform ThisTransform = null;
     private int counter = 0;
-    public float Speed = 1f;
+    public float Speed = 15f;
     public AnimationCurve AnimCurve;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-        
-    }
 
     private void OnTriggerExit(Collider hit)
 	{
@@ -34,11 +21,15 @@ public class BuildingCollapse : MonoBehaviour
 		}
 	}
 
+    public void uncollapse()
+    {
+        StopAllCoroutines();
+    }
+
     IEnumerator collapse() {
         Transform ThisTransform = GetComponent<Transform>();
-        while ( counter < 500)
+        while ( counter < 800)
         {
-            Debug.Log(counter);
             counter ++;
             if (ThisTransform != null)
             {
