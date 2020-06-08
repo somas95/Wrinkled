@@ -70,7 +70,7 @@ public class Respawn : MonoBehaviour
 
 	IEnumerator waitForZen()
 	{
-		yield return new WaitForSeconds(15);
+		yield return new WaitForSeconds(10);
 		gameSceneManager = GetComponent<GameSceneManager>();
 		gameSceneManager.LoadGameScene("Vestigio-cutscene");
 	}
