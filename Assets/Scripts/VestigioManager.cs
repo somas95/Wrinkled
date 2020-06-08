@@ -4,10 +4,14 @@ using UnityEngine;
 
 public class VestigioManager : MonoBehaviour
 {
+
+    private AudioManager audioManager;
     // Start is called before the first frame update
     void Start()
     {
-        
+        audioManager = AudioManager.instance;       
+        audioManager.Play("sal");
+        audioManager.Play("background");
     }
 
     // Update is called once per frame

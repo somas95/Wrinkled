@@ -9,10 +9,20 @@ public class Respawn : MonoBehaviour
     private CharacterController Rigidbody;
 	private GameObject[] buildings;
 	public float BuildingSpawnY = -75;
-
+	public int NumberOfRespawns = 0;
+	private AudioManager audioManager;
 
     private void SpawnCharacter()
 	{
+		NumberOfRespawns ++;
+
+		if (NumberOfRespawns >= 5)
+		{
+			audioManager = AudioManager.instance;       
+        	audioManager.Play("dejate");
+			audioManager.IncrementVolume("dejate", 30);
+		}
+
 		buildings = GameObject.FindGameObjectsWithTag("Building");
 		foreach (GameObject building in buildings)
         {
@@ -39,7 +49,7 @@ public class Respawn : MonoBehaviour
 	}
 
     IEnumerator die() {
-		yield return new WaitForSeconds (0.05f);
+		yield return new WaitForSeconds (1f);
 		SpawnCharacter();
 	}
 }

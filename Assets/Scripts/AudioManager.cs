@@ -51,4 +51,10 @@ public class AudioManager : MonoBehaviour
         }
 	}
 
+    public void IncrementVolume(string sound, int quantity)
+    {
+        Sound s = Array.Find(sounds, item => item.name == sound);
+        s.volume += s.volume * quantity/100;
+    }
+
 }
