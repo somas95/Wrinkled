@@ -8,8 +8,11 @@ public class Respawn : MonoBehaviour
     [SerializeField] private Transform SpawnPoint;								// From where do we spawn the player
     private CharacterController Rigidbody;
 	private GameObject[] buildings;
+	 private Coroutine _waitForZen;
 	public float BuildingSpawnY = -75;
 	public int NumberOfRespawns = 0;
+	public int SecondsToWait = 15;
+	public float timestamp;
 	private AudioManager audioManager;
 
     private void SpawnCharacter()
@@ -34,6 +37,9 @@ public class Respawn : MonoBehaviour
 
 		Rigidbody = GetComponent<CharacterController>();
 		Rigidbody.transform.position = SpawnPoint.transform.position;
+
+		_waitForZen = StartCoroutine(waitForZen());
+		//StopCoroutine(_waitForZen);
 	}
 
 
@@ -48,8 +54,21 @@ public class Respawn : MonoBehaviour
 		}
 	}
 
+	void Update()
+	{
+		if (Input.anyKey && _waitForZen != null)
+		{
+			StopCoroutine(_waitForZen);
+		}
+	}
+
     IEnumerator die() {
 		yield return new WaitForSeconds (1f);
 		SpawnCharacter();
+	}
+
+	IEnumerator waitForZen()
+	{
+		yield return new WaitForSeconds(15);
 	}
 }

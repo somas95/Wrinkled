@@ -9,6 +9,7 @@ public class BuildingCollapse : MonoBehaviour
     private int counter = 0;
     public float Speed = 15f;
     public AnimationCurve AnimCurve;
+    private AudioManager audioManager;
 
     private void OnTriggerExit(Collider hit)
 	{
@@ -16,6 +17,8 @@ public class BuildingCollapse : MonoBehaviour
 		if (hit.gameObject.tag == "Player")
 		{
             counter = 0;
+            audioManager = AudioManager.instance;       
+            audioManager.Play("derribo");
 			StartCoroutine(collapse());
 
 		}

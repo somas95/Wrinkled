@@ -12,6 +12,7 @@ public class VestigioManager : MonoBehaviour
         audioManager = AudioManager.instance;       
         audioManager.Play("sal");
         audioManager.Play("background");
+        audioManager.Play("viento");
     }
 
     // Update is called once per frame
