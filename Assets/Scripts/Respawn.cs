@@ -14,6 +14,7 @@ public class Respawn : MonoBehaviour
 	public int SecondsToWait = 15;
 	public float timestamp;
 	private AudioManager audioManager;
+	private GameSceneManager gameSceneManager;
 
     private void SpawnCharacter()
 	{
@@ -70,5 +71,7 @@ public class Respawn : MonoBehaviour
 	IEnumerator waitForZen()
 	{
 		yield return new WaitForSeconds(15);
+		gameSceneManager = GetComponent<GameSceneManager>();
+		gameSceneManager.LoadGameScene("Vestigio-cutscene");
 	}
 }

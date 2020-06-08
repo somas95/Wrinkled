@@ -10,6 +10,7 @@ public class MainMenuManager : MonoBehaviour
     {
         audioManager = AudioManager.instance;       
         audioManager.Play("background");
+        audioManager.Play("respiracion");
 
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
