@@ -2425,7 +2425,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 4.5559e-41, y: 0, z: 1e-45, w: NaN}
+  m_BoundingSphereOverride: {x: 4.5579e-41, y: 7.1e-44, z: 0, w: -2.5884e-38}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -4227,7 +4227,7 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: background
     clip: {fileID: 8300000, guid: b6b66080e6884192ca6e0ef4b06dfca0, type: 3}
-    volume: 0.404
+    volume: 0.314
     volumeVariance: 0
     pitch: 1
     pitchVariance: 0
@@ -4236,7 +4236,7 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: viento
     clip: {fileID: 8300000, guid: 681b711cd0fb93bda968a9dbb98054dc, type: 3}
-    volume: 0.404
+    volume: 0.529
     volumeVariance: 0
     pitch: 1
     pitchVariance: 0
@@ -4245,7 +4245,7 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: derribo
     clip: {fileID: 8300000, guid: 687fbc62b8a70e9179f5f3c94c61918b, type: 3}
-    volume: 0.404
+    volume: 0.547
     volumeVariance: 0
     pitch: 1
     pitchVariance: 0
